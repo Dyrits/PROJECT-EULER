@@ -32,7 +32,7 @@ The problems range in difficulty and for many the experience is inductive chain 
 
 ### Technologies | Libraries | Frameworks | Tools  
 - JavaScript
-- Python
+- Python | [*Checkout on Python branch~*](https://github.com/Dyrits/PROJECT-EULER/tree/Python)
 
 ### Status
 In progress
@@ -42,6 +42,3 @@ In progress
 
 #### Last update (README.md)
 23/06/2020
-
-
-
