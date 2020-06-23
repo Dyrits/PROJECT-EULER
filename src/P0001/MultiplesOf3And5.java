@@ -12,14 +12,13 @@ public class MultiplesOf3And5 {
     }
 
     public int setResult(int number) {
-        int result = 0;
-        for (int step3 = 3; step3 < number; step3 += 3) {
-            result += step3;
-        }
-        for (int step5 = 5; step5 < number; step5 += 5) {
-            result += step5 % 3 == 0 ? 0 : step5;
-        }
-        return result;
+        int result = 0, step3 = 3, step5 = 5;
+        return setResult(number, step3, step5, result);
+    }
+
+    public int setResult(int number, int step3, int step5, int result) {
+        result += step5 < number && step5 % 3 != 0 ? step5 : 0;
+        return step3 < number ? step3 + setResult(number, step3 + 3, step5 + 5, result) : result;
     }
 
     public int getResult() {
