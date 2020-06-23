@@ -4,7 +4,7 @@ public class MultiplesOf3And5 {
     protected int result;
 
     public static void main(String[] args) {
-        System.out.println(new MultiplesOf3And5(1000).getResult());
+        System.out.println("Answer: " + new MultiplesOf3And5(1000).getResult());
     }
 
     public MultiplesOf3And5(int number) {
