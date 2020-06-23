@@ -11,8 +11,10 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ## More about this project
 
-### Related course
+### Related website
 [PROJECT EULER](https://projecteuler.net/)
+
+### Description of the project by PROJECT EULER
 
 #### What is Project Euler?
 
@@ -27,8 +29,6 @@ The intended audience include students for whom the basic curriculum is not feed
 #### Can anyone solve the problems?
 
 The problems range in difficulty and for many the experience is inductive chain learning. That is, by solving one problem it will expose you to a new concept that allows you to undertake a previously inaccessible problem. So the determined participant will slowly but surely work his/her way through every problem.
-
-### Description of the project by PROJECT EULER
 
 ### Technologies | Libraries | Frameworks | Tools  
 - JavaScript
