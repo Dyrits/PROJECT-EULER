@@ -1,4 +1,4 @@
-// WEIRD RECURSIVE LOOP SOLUTION:
+// RECURSIVE SOLUTION:
 function multiplesOf3and5(number, step3 = 0, step5 = 0, result = 0) {
   result += step5 < number && step5 % 3 ? step5 : 0;
   return step3 < number ? step3 + multiplesOf3and5(number, step3 + 3, step5 + 5, result) : result;
