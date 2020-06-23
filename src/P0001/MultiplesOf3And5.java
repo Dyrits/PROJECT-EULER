@@ -1,10 +1,17 @@
 package P0001;
 
 public class MultiplesOf3And5 {
+    protected int result;
+
     public static void main(String[] args) {
-        System.out.println(MultiplesOf3And5.upTo(1000));
+        System.out.println(new MultiplesOf3And5(1000).getResult());
     }
-    public static int upTo(int number) {
+
+    public MultiplesOf3And5(int number) {
+        this.result = setResult(number);
+    }
+
+    public int setResult(int number) {
         int result = 0;
         for (int step3 = 3; step3 < number; step3 += 3) {
             result += step3;
@@ -14,4 +21,9 @@ public class MultiplesOf3And5 {
         }
         return result;
     }
+
+    public int getResult() {
+        return this.result;
+    }
+
 }
