@@ -2,7 +2,7 @@ package P0003;
 
 public class LargestPrimeFactor {
     public static void main(String[] args) {
-        System.out.println("Answer: " + largestPrimeFactor(600851475143L));;
+        System.out.println("Answer: " + largestPrimeFactor(600851475143L));;  // Answer: 6857
     }
 
     public static boolean isPrime(int number) {

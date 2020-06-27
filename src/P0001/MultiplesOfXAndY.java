@@ -6,7 +6,7 @@ public class MultiplesOfXAndY {
     protected int Y;
 
     public static void main(String[] args) {
-        System.out.println("Answer: " + new MultiplesOfXAndY(3, 5, 1000).getResult());
+        System.out.println("Answer: " + new MultiplesOfXAndY(3, 5, 1000).getResult());  // Answer: 233168
     }
 
     public MultiplesOfXAndY(int X, int Y, int ceil) {
