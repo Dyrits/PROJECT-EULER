@@ -6,13 +6,18 @@ public class MultiplesOfXAndY {
     protected int Y;
 
     public static void main(String[] args) {
-        System.out.println("Answer: " + new MultiplesOfXAndY(3, 5, 1000).getResult());  // Answer: 233168
+        System.out.println("Answer: " + new MultiplesOfXAndY().getResult());  // Answer: 233168
     }
 
     public MultiplesOfXAndY(int X, int Y, int ceil) {
         setX(X, Y);
         setY(X, Y);
         setResult(ceil);
+    }
+
+    public MultiplesOfXAndY() {
+        // Default values:
+        this(3, 5, 1000);
     }
 
     public void setResult(int ceil) { this.result = setResult(this.X, this.Y, ceil, 0); }
