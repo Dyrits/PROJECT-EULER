@@ -8,7 +8,26 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 </details>
+<details markdown="block">
+<summary>0003 - Largest prime factor</summary>
 
+## Largest prime factor
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?
+
+</details>
+<details markdown="block">
+<summary>0004 - Largest palindrome product</summary>
+
+## Largest palindrome product
+
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+
+
+</details>
 ## More about this project
 
 ### Related website
@@ -39,10 +58,10 @@ The problems range in difficulty and for many the experience is inductive chain 
 In progress
 
 #### Last update
-23/06/2020
+19/07/2020
 
 #### Last update (README.md)
-23/06/2020
+19/07/2020
 
 
 
