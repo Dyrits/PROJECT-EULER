@@ -23,7 +23,7 @@ public class LargestPalindromeProduct {
     }
 
     public static boolean isPalindrome(int number) {
-        String reversedPNumber = new StringBuilder().append(number).reverse().toString();
-        return number == Integer.parseInt(reversedPNumber);
+        String reversedNumber = new StringBuilder().append(number).reverse().toString();
+        return number == Integer.parseInt(reversedNumber);
     }
 }
