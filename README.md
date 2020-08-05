@@ -37,6 +37,14 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 
+</details>
+<details markdown="block">
+<summary>0005 - Smallest multiple</summary>
+
+## Smallest multiple
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 </details>
 
