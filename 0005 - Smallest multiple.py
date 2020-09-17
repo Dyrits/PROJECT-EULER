@@ -3,4 +3,3 @@ def smallest_multiple():
 
 
 print(f"Answer: {smallest_multiple()}")  # Answer: 232792560
-
