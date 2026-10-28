@@ -1,5 +1,9 @@
 # Project Euler
 
+A collection of [Project Euler](https://projecteuler.net/) problem statements (problems 1 to 7), kept as collapsible sections.
+
+## Problems
+
 <details markdown="block">
 <summary>0001 - Multiples of 3 and 5</summary>
 
@@ -104,5 +108,10 @@ In progress
 #### Last update (README.md)
 19/07/2020
 
+## License
 
+No license file is present in this repository.
 
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
